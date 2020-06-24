@@ -1,0 +1,9 @@
+
+        {% extends 'base.html.twig' %}
+        {% block body %}
+            FirstName :  <h2>{{ homeEntity.getFirstName() }}</h2>
+            LastName :  <h2>{{ homeEntity.getLastName() }}</h2>
+            Age :  <h2>{{ homeEntity.getAge() }}</h2>
+            Vocation : <h2>{{ homeEntity.getVocation() }}</h2>
+        {% endblock %}
+      
