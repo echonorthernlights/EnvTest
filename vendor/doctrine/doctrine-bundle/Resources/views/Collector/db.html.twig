@@ -242,7 +242,7 @@
                                 {{ query.sql|doctrine_prettify_sql }}
 
                                 <div>
-                                    <strong class="font-normal text-small">Parameters</strong>: {{ profiler_dump(query.params, 2) }}
+                                    <strong class="font-normal text-small">Parameters</strong>: {#{{ profiler_dump(query.params, 2) }}#}
                                 </div>
 
                                 <div class="text-small font-normal">
